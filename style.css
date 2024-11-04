@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Val.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 60px; 
+}
+
+header {
+    color: rgb(240, 232, 232);
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    background-color: rgba(5, 5, 5, 0.8);
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 100; 
+    font-family: 'Times New Roman';
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+    color: gray;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: maroon;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 700px;
+    font-family: 'Merlin';
+}
+
+footer p {
+    margin: 5px 0; 
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+    color: gray; 
+}
+p{
+    color: gray;
+    font-family: 'Lucida Sans';
+}
+ul{
+    font-family: 'Time New Roman';
+}
+ul li{
+   text-align: left;
+}
+h3{
+    text-align: left;
+    color: black;
+}
+strong{
+    color: gray;
+}
+p{
+    text-align: center;
+}
